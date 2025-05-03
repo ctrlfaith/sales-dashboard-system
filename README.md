@@ -8,8 +8,8 @@
 
 ## ⚙️ Tech Stack
 
-- **Frontend:** HTML5, CSS3 (Custom Styling), JavaScript
-- **Styling Framework:** Bootstrap 5, Google Fonts (Roboto), Bootstrap Icons
+- **Frontend:** HTML, CSS (Custom Styling), JavaScript
+- **Styling Framework:** Bootstrap, Google Fonts (Roboto), Bootstrap Icons
 - **Backend:** PHP (Procedural)
 - **Database:** MySQL (via **phpMyAdmin**)
 - **Data Visualization:** Looker Studio (Embed via iframe), Google Sheets (Data Import)
