@@ -1,8 +1,6 @@
 # 📊 Sales Dashboard System
 
-**Sales Dashboard System** คือระบบจัดการข้อมูลการขาย ที่ออกแบบมาสำหรับบันทึก ดู และวิเคราะห์ยอดขาย  
-รองรับการเชื่อมต่อกับ **Looker Studio** เพื่อแสดงข้อมูลในรูปแบบ Interactive Dashboard
-โดยนำเข้าข้อมูลจาก phpMyAdmin --> Google Sheets ก่อน แล้วนำไปใช้ใน Looker Studio ผ่านการฝัง iframe
+**Sales Dashboard System** คือระบบจัดการข้อมูลการขาย ที่ออกแบบมาสำหรับบันทึก ดู และวิเคราะห์ยอดขาย รองรับการเชื่อมต่อกับ **Looker Studio** เพื่อแสดงข้อมูลในรูปแบบ Interactive Dashboard โดยนำเข้าข้อมูลจาก phpMyAdmin --> Google Sheets ก่อน แล้วนำไปใช้ใน Looker Studio ผ่านการฝัง iframe
 ---
 
 ## ⚙️ Tech Stack
