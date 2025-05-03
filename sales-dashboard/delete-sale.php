@@ -8,7 +8,6 @@ if (!isset($_GET['id'])) {
 
 $id = $_GET['id'];
 
-// ตรวจสอบก่อนลบ
 $sql = "SELECT * FROM sales WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
@@ -21,7 +20,6 @@ if (!$sale) {
     exit;
 }
 
-// ลบข้อมูล
 $sql = "DELETE FROM sales WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
