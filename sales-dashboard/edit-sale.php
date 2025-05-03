@@ -2,7 +2,7 @@
 include 'db.php';
 
 if (!isset($_GET['id'])) {
-    header("Location: view-sales.php"); // กลับหน้าหลักหากไม่มี id
+    header("Location: view-sales.php");
     exit;
 }
 
@@ -10,7 +10,6 @@ $id = $_GET['id'];
 $error = '';
 $success = '';
 
-// อ่านข้อมูลเดิม
 $sql = "SELECT * FROM sales WHERE id = ?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
@@ -23,7 +22,6 @@ if (!$sale) {
     exit;
 }
 
-// บันทึกการแก้ไข
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $product_name = $_POST['product_name'];
     $quantity = $_POST['quantity'];
